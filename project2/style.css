@@ -1,0 +1,109 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    position: relative;
+    width: 50%;
+    margin:10px auto;
+    padding: 5px;
+    
+}
+header{
+    border-bottom: 5px solid #f4f4f4f4;
+}
+main>div>h2{
+    margin: 5px 0px;
+    padding: 10px;
+}
+main>div>p{
+ padding: 10px;   
+}
+main>div>ul{
+margin:20px 50px;
+padding: 10px;
+}
+main>div>ul>li{
+   margin-top: 10px; 
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 5px solid #f4f4f4f4;
+}
+/* qustion style */
+.question{
+  margin: 20px 0px;
+ 
+}
+.answer{
+   
+    margin:5px 30px;
+}
+.answer li{
+    margin-top:10px;
+    font-size: 14px;
+
+}
+
+.answer input[type="submit"] {
+    margin-top: 30px;
+    background: blue;
+    color: white;
+    padding: 5px;
+    border: 0px;
+    border-radius: 2px;
+}
+/* final style*/
+.start{
+    margin-top: 30px;
+    background: green;
+    color: white;
+    padding: 5px;
+    width:50px;
+    border: 0px;
+    border-radius: 2px;
+}
+/* add page style */
+
+.add p{
+ padding: 10px
+}
+.add p>label{
+    display: inline-block;
+    width: 170px;
+}
+.add p>input[type='text']{
+    padding: 5px;
+    width: 65%;
+}
+.add p>input[type='number']{
+    padding: 5px;
+    width:60px;
+}
+.error{
+    background: red;
+    padding: 5px 20px ;
+    color: white;
+
+}
+.success{
+    background: green;
+    padding: 5px 20px ;
+    color: white;
+
+}
+@media screen and (max-width: 480px) {
+    .container{
+        width: 90%;
+    }
+}
