@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+}
+.shoutit{
+    
+    position: relative;
+    color: white;
+    top: 100px;
+    width: 40%;
+    margin: auto;
+     min-height: 500px;
+     background:black;
+     border: 1px solid green;
+}
+.shoutit>header{
+    padding: 5px;
+    margin-bottom:3px;
+    text-align: center;
+    border-bottom:1px solid white ;
+    color: green;
+
+}
+
+.shouts{
+ 
+    padding: 3px;
+    height: 350px;
+    overflow: hidden;
+
+}
+ .shout{
+    list-style: none;
+    padding: 3px;
+    margin: 3px;
+    border-bottom: 1px dashed white;
+    font-size: 14px;
+    
+
+}
+.shout>span{
+    color: #eee;
+}
+.shout>strong{
+    color: green;
+}
+
+.error{
+    position: relative;
+    max-height: 30px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+
+.send{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+    padding:10px 5px;
+    background: white;
+    color: black;
+
+}
+.send>input[type='text']{
+    width: 30%;
+    padding: 5px;
+    margin-top: 10px;
+    height: 30px;
+}
+.send>textarea{
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+    height:50px;
+}
+.send>div{
+    margin-top: 20px;
+    display: flex;
+    align-items:center ;
+    align-content: center;
+    justify-content: center;
+
+}
+.send>div>input[type='submit']{
+   width: 80%;
+   margin-top: 5px;
+   margin-bottom: 5px;
+
+    padding: 5px;
+    background: green;
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    .shoutit{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .shoutit{
+        width: 80%;
+    }
+}
